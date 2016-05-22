@@ -64,14 +64,17 @@ tags: 网速 OpenGL VNC
 
 ### VNC软件
 由于VNC以GPL授权，派生出了几个VNC软件：
-[RealVNC](https://zh.wikipedia.org/w/index.php?title=RealVNC&action=edit&redlink=1)：由VNC团队部分成员开发，分为全功能商业版及免费版。
-[TightVNC](https://zh.wikipedia.org/w/index.php?title=TightVNC&action=edit&redlink=1)：强调节省带宽使用。
-[UltraVNC](https://zh.wikipedia.org/w/index.php?title=UltraVNC&action=edit&redlink=1)：加入了TightVNC的部分程序及加强性能的图型映射驱动程序，并结合Active Directory及NTLM的账号密码认证，但仅有Windows版本。
-[Vine Viewer](https://zh.wikipedia.org/w/index.php?title=Vine_Viewer&action=edit&redlink=1)：MacOSX的VNC客户端。
+
+- [RealVNC](https://zh.wikipedia.org/w/index.php?title=RealVNC&action=edit&redlink=1)：由VNC团队部分成员开发，分为全功能商业版及免费版。
+- [TightVNC](https://zh.wikipedia.org/w/index.php?title=TightVNC&action=edit&redlink=1)：强调节省带宽使用。
+- [UltraVNC](https://zh.wikipedia.org/w/index.php?title=UltraVNC&action=edit&redlink=1)：加入了TightVNC的部分程序及加强性能的图型映射驱动程序，并结合Active Directory及NTLM的账号密码认证，但仅有Windows版本。
+- [Vine Viewer](https://zh.wikipedia.org/w/index.php?title=Vine_Viewer&action=edit&redlink=1)：MacOSX的VNC客户端。
 
 这些软件各有所长，例如UltraVNC支持文件传输以及全屏模式。而这些软件间大多遵循基本的VNC协议，因此大多可互通使用。
 
-   ### 下载安装
+
+### 下载安装
+
 在RealVNC官方网站提供了多种平台下的安装包。
  
 - [官网下载页面](http://www.realvnc.com/download/viewer/)
@@ -83,6 +86,8 @@ tags: 网速 OpenGL VNC
 - [iHackSoft下载页面](http://www.ihacksoft.com/vnc-realvnc-5.html)
 
 ![iHackSoft](http://upload-images.jianshu.io/upload_images/1242974-55320545fc0b2171.png)
+
+
 - 以上内容纯属瞎扯，其实我最想记下来的是下面的注册码，哈哈
 
 
