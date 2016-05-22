@@ -110,10 +110,10 @@ tags: 复制构造函数 赋值操作符 析构函数 智能指针
      ~U_Ptr() { delete ip; }
      };
 
-![创建一个 HasPtr 对象](http://upload-images.jianshu.io/upload_images/1242974-a208197750ec5a9e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![创建一个 HasPtr 对象](http://upload-images.jianshu.io/upload_images/1242974-a208197750ec5a9e.png)
 
   
-![复制对象](http://upload-images.jianshu.io/upload_images/1242974-64949fd2c1147fb2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![复制对象](http://upload-images.jianshu.io/upload_images/1242974-64949fd2c1147fb2.png)
 
 
   

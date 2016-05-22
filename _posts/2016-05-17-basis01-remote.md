@@ -22,7 +22,7 @@ tags: 网速 OpenGL VNC
 ## 网速 ##
 - 在图书馆的无线网络速度都有72Mbps了，但**实验室有线宽带网络速度带宽仅为10Mbps**
 
-![笔记本无线网速度](http://upload-images.jianshu.io/upload_images/1242974-2e594b08aec5333d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![笔记本无线网速度](http://upload-images.jianshu.io/upload_images/1242974-2e594b08aec5333d.png)
 
 ## 显示 ##
 
@@ -31,11 +31,10 @@ tags: 网速 OpenGL VNC
  在调用远程桌面连接程序时，使用`Win键+R`快捷键调用运行，输入`mstsc`，回车即可出现下面的窗口。然后再输入远程连接电脑的`IP`，这里我已经设置了最高性能了。
  
 
-![Windows7远程桌面连接](http://upload-images.jianshu.io/upload_images/1242974-f19729fc24b683b0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
+![Windows7远程桌面连接](http://upload-images.jianshu.io/upload_images/1242974-f19729fc24b683b0.png)
 在进入我的远程电脑，运行程序时，尴尬的情况出现了-远程桌面无法显示`OpenGL`程序，如下图：
 
-![未显示3D图形](http://upload-images.jianshu.io/upload_images/1242974-c0eebdf9146f4a61.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![未显示3D图形](http://upload-images.jianshu.io/upload_images/1242974-c0eebdf9146f4a61.png)
 
  
 
@@ -53,13 +52,13 @@ tags: 网速 OpenGL VNC
 
 我下载使用过这个软件，但是效果不大好，最后选择下载同类型的**`RealVNC`**，不仅是因为这个软件显示效果好，而且还提供在移动客户端的友好支持。手机、笔记本都可以访问我实验室的电脑啦！简直吊炸天！
 
-![移动端显示效果](http://upload-images.jianshu.io/upload_images/1242974-ea5dd5281d519931.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![移动端显示效果](http://upload-images.jianshu.io/upload_images/1242974-ea5dd5281d519931.jpg)
 
 在移动端还提供了多指触控，虚拟键盘等功能，坐在地铁上都可以运行下程序，调试个BUG，想想都觉得妙不可言！
 
 
  
-![PC端显示效果](http://upload-images.jianshu.io/upload_images/1242974-16feedd448637e6e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![PC端显示效果](http://upload-images.jianshu.io/upload_images/1242974-16feedd448637e6e.png)
 
 **VNC**（Virtual Network Computing），为一种使用[RFB协议](https://zh.wikipedia.org/w/index.php?title=RFB%E5%8D%94%E5%AE%9A&action=edit&redlink=1)的屏幕画面分享及远程操作软件。此软件借由网络，可发送键盘与鼠标的动作及即时的屏幕画面。VNC与操作系统无关，因此可跨平台使用，例如可用[Windows](https://zh.wikipedia.org/wiki/Windows)连接到某[Linux](https://zh.wikipedia.org/wiki/Linux)的电脑，反之亦同。甚至在没有安装客户端程序的电脑中，只要有支持[JAVA](https://zh.wikipedia.org/wiki/JAVA)的[浏览器](https://zh.wikipedia.org/wiki/%E7%80%8F%E8%A6%BD%E5%99%A8)，也可使用。
 
@@ -77,14 +76,13 @@ tags: 网速 OpenGL VNC
  
 - [官网下载页面](http://www.realvnc.com/download/viewer/)
 
-![RealVNC](http://upload-images.jianshu.io/upload_images/1242974-aef4068853ab65d3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![RealVNC](http://upload-images.jianshu.io/upload_images/1242974-aef4068853ab65d3.png)
     
 之前是搜注册码的，搜到了这个网站，里面的注册码可以使用的，并且还提供了相应版本的下载链接地址，感觉做的很用心，推荐给大家。
 
 - [iHackSoft下载页面](http://www.ihacksoft.com/vnc-realvnc-5.html)
 
-![iHackSoft](http://upload-images.jianshu.io/upload_images/1242974-55320545fc0b2171.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
+![iHackSoft](http://upload-images.jianshu.io/upload_images/1242974-55320545fc0b2171.png)
 - 以上内容纯属瞎扯，其实我最想记下来的是下面的注册码，哈哈
 
 

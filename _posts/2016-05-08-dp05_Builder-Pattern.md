@@ -70,7 +70,7 @@ tags: 创建型模式 建造者模式
 
 # UML #
 
-![建造者模式](http://upload-images.jianshu.io/upload_images/1242974-74be3ce2d3e59e85.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![建造者模式](http://upload-images.jianshu.io/upload_images/1242974-74be3ce2d3e59e85.png)
 
 - 纸盒中 --汉堡（Burger）--素食汉堡（Veg Burger）或鸡肉汉堡（Chicken Burger）瓶子中 --冷饮（Cold drink）--可口可乐（coke）或百事可乐（pepsi）
 - 创建一个表示食物条目（比如汉堡和冷饮）的 Item 接口和实现 Item 接口的实体类，以及一个表示食物包装的 Packing 接口和实现 Packing 接口的实体类，汉堡是包在纸盒中，冷饮是装在瓶子中。

@@ -9,7 +9,7 @@ tags: 创建型模式 结构型模式 行为模式
 {:toc}
 
 
-![摘要](http://upload-images.jianshu.io/upload_images/1242974-db23bec89ba568d5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240) 
+![摘要](http://upload-images.jianshu.io/upload_images/1242974-db23bec89ba568d5.png) 
 
 # 概念 #
 
@@ -23,7 +23,7 @@ tags: 创建型模式 结构型模式 行为模式
 # 面向对象设计原则 #
 
 
-![设计原则](http://upload-images.jianshu.io/upload_images/1242974-56230fe31338abd0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![设计原则](http://upload-images.jianshu.io/upload_images/1242974-56230fe31338abd0.png)
 
 
 # 分类 #
@@ -71,13 +71,13 @@ tags: 创建型模式 结构型模式 行为模式
 # 关系 #
 
  
-![设计模式间的关系](http://upload-images.jianshu.io/upload_images/1242974-09e0893682a95b26.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![设计模式间的关系](http://upload-images.jianshu.io/upload_images/1242974-09e0893682a95b26.png)
 
 
 # 六大原则 #
 
 
-![六大原则](http://upload-images.jianshu.io/upload_images/1242974-4a6953c99be09096.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![六大原则](http://upload-images.jianshu.io/upload_images/1242974-4a6953c99be09096.png)
 
 
 ##  开闭原则（Open Close Principle） ##

@@ -66,7 +66,7 @@ tags: 创建型模式 抽象工厂模式
 
 # UML #
 
-![抽象工厂](http://upload-images.jianshu.io/upload_images/1242974-27866a5bc3ec1e53.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![抽象工厂](http://upload-images.jianshu.io/upload_images/1242974-27866a5bc3ec1e53.png)
 
  - 创建 Shape 和 Color 接口和实现这些接口的实体类。
  - 创建抽象工厂类 AbstractFactory。接着定义工厂类 ShapeFactory 和 ColorFactory。

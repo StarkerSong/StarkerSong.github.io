@@ -84,7 +84,7 @@ tags: 创建型模式 单例模式
 
 # UML #
 
-![单例模式](http://upload-images.jianshu.io/upload_images/1242974-e4a74037b444172f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![单例模式](http://upload-images.jianshu.io/upload_images/1242974-e4a74037b444172f.png)
 
 - 创建一个 SingleObject 类。SingleObject 类有它的私有构造函数和本身的一个静态实例。
 - SingleObject 类提供了一个静态方法，供外界获取它的静态实例。
