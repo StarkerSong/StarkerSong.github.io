@@ -10,7 +10,7 @@ icon: heart
 
 ## 关于我
 
-![logo.png](http://7xucao.com1.z0.glb.clouddn.com/logo.jpg)
+![logo.png](http://7xucao.com1.z0.glb.clouddn.com/logo.png)
 
 
  
