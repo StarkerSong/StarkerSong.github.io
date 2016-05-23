@@ -8,7 +8,7 @@ tags: 创建型模式
 
 * content
 {:toc} 
-![overview.png](http://upload-images.jianshu.io/upload_images/1242974-248d453ac03acae3.png)
+![overview.png](http://7xucao.com1.z0.glb.clouddn.com/conclusion1.png)
 
 1 工厂模式（Factory Pattern）
 2 抽象工厂模式（Abstract Factory Pattern）

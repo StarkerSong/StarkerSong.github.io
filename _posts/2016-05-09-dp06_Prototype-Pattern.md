@@ -85,7 +85,7 @@ tags: 创建型模式 原型模式
 
 # UML #
 
-![原型模式](http://upload-images.jianshu.io/upload_images/1242974-bbdc7d5b719a71ef.png)
+![原型模式](http://7xucao.com1.z0.glb.clouddn.com/dp06.png)
 
  ● 创建一个抽象类 Prototype 和扩展了Prototype 类的实体类
  ● 使用Client来获取 Prototype 对象。

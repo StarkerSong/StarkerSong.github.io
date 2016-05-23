@@ -49,7 +49,7 @@ tags: 创建型模式 工厂模式
 
 ##  使用场景 ##
 
-![使用场景](http://upload-images.jianshu.io/upload_images/1242974-5169942ca4a0cc6f.png)
+![使用场景](http://7xucao.com1.z0.glb.clouddn.com/dp02.png)
 
 
  -  日志记录器：记录可能记录到本地硬盘、系统事件、远程服务器等，用户可以选择记录日志到什么地方。
@@ -78,7 +78,7 @@ tags: 创建型模式 工厂模式
 
  
 
-![工厂模式](http://upload-images.jianshu.io/upload_images/1242974-30c7f667a4d82bf1.png)
+![工厂模式](http://7xucao.com1.z0.glb.clouddn.com/dp022.png)
 
 - 创建一个 Shape 接口和实现 Shape 接口的实体类。
 - 定义工厂类 ShapeFactory。
