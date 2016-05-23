@@ -134,7 +134,7 @@ tags: 创建型模式 单例模式
 
 ##  懒汉模式 ##
 
-**描述： **即第一次调用该类实例的时候才产生一个新的该类实例，并在以后仅返回此实例。需要用锁，来保证其线程安全性。
+**描述：**即第一次调用该类实例的时候才产生一个新的该类实例，并在以后仅返回此实例。需要用锁，来保证其线程安全性。
 
 **原因：**多个线程可能进入判断是否已经存在实例的if语句，从而non thread safety。使用double-check来保证thread safety.但是如果处理大量数据时，该锁才成为严重的性能瓶颈。
 
@@ -172,6 +172,7 @@ tags: 创建型模式 单例模式
      return SingleObject::instance;
      }
      SingleObject *SingleObject::instance = NULL;
+
 #### 2、内部静态实例的懒汉模式 ####
     
      class SingleObject
