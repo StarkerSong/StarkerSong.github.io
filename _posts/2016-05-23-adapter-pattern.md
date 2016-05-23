@@ -1,9 +1,9 @@
 ---
 layout: post
-title: 
+title: "设计模式08_适配器模式（Adapter Pattern）"
 date: 2016-05-23 20:07:07 +0800
-categories: 
-tags: 
+categories: DesignPattern
+tags: 结构型模式 适配器模式
 ---
 * content
 {:toc} 
@@ -79,7 +79,7 @@ tags:
 
 # UML
 
- ![enter image description here](http://7xucao.com1.z0.glb.clouddn.com/adapter_pattern_uml_diagram.jpg)
+ ![适配器模式](http://7xucao.com1.z0.glb.clouddn.com/adapter_pattern_uml_diagram.jpg)
 
 - MediaPlayer接口和实现MediaPlayer接口实体类AudioPlayer。AudioPlayer可以播放MP3格式。           
 - AdvancedMediaPlayer接口和实现AdvancedMediaPlayer接口的实体类。AdvancedMediaPlayer可以播放MP4和

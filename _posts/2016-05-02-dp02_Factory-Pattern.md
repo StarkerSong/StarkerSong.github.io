@@ -88,14 +88,16 @@ tags: 创建型模式 工厂模式
 
  //步骤1 创建一个接口
 
+```cpp
      class Shape
      {
      public:
      virtual void draw()=0;
      };
-
+```
  //步骤2 创建实现接口的实体类
 
+```
      class Rectangle :public Shape
      {
      public:
@@ -122,9 +124,11 @@ tags: 创建型模式 工厂模式
      cout << "Circle::draw method." << endl;
      }
      };
+```
 
  //步骤3 创建一个工厂，生成基于给定信息的实体类的对象。
 
+```
      class ShapeFactory
      {
      public:
@@ -136,9 +140,11 @@ tags: 创建型模式 工厂模式
      return NULL;
      }
      };
+```
 
  //步骤4 使用该工厂，通过传递类型信息来获取实体类的对象。
 
+```
      int main()
      {
      ShapeFactory *shapeFactory = new ShapeFactory();
@@ -157,10 +163,13 @@ tags: 创建型模式 工厂模式
      system("pause");
      return 0;
      }
+```
 
  //结果
 
+```
      Circle::draw method.
      Rectangle::draw() method.
      Square::draw method.
      请按任意键继续. . .
+```
