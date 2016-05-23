@@ -219,3 +219,12 @@ int main()
 }
 ```
 
+//结果
+
+```cpp
+Playing mp3 file. Name: beyond the horizon.mp3
+Playing Mp4 file. Name: alone.mp4
+Playing vlc file. Name: far far away.vlc
+Invalid media. avi format not supported
+请按任意键继续. . .
+```
