@@ -54,14 +54,6 @@ C:\PYTHON27\SCRIPTS\DQD
 │          __init__.py
 │          __init__.pyc
 │
-
-
-
-
-
-
-
-
 └─Image
     └─full
         │  full.rar
@@ -75,6 +67,11 @@ C:\PYTHON27\SCRIPTS\DQD
                 480-150605105312V0.jpg
 
 ```
+
+
+
+
+
 
 
 ## 下载和存储管理 ##
