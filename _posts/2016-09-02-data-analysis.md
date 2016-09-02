@@ -56,12 +56,14 @@ tags: spider power-bi
 
 我们不光要分析作者的发文数量，还要分析用户的关注度，寻找出最具价值的老司机，很显然，GreatWall、elfiemini、鹰旗百夫长以微弱优势占据三甲。恩恩，懂球帝最受欢迎老司机新鲜出炉啦。
 
+
 |作者|全部评论数量|热评数量|
 |:----:|:----:|:----:|
 |GreatWall|238738|21873|
 |elfiemini|224058|23014|
 |鹰旗百夫长|200386|10337|
 
+<br>
 
 ![各年度评论数据](http://upload-images.jianshu.io/upload_images/1242974-9953252a7b9ea2bb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 数据不能完全反应发展的实际情况，但不会撒谎，在一定程度上反应了懂球帝的快速发展。接下来，再单选2016年，评测各个月份的数据信息。
