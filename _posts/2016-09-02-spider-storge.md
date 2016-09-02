@@ -130,7 +130,7 @@ DOWNLOAD_DELAY = 0.2
 - 查重(并丢弃)
 - 将爬取结果保存到数据库中
 
-**image_pipelines.py**
+### image_pipelines.py ###
 
 ```python
 # -*- coding: utf-8 -*-
