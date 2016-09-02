@@ -54,6 +54,14 @@ C:\PYTHON27\SCRIPTS\DQD
 │          __init__.py
 │          __init__.pyc
 │
+
+
+
+
+
+
+
+
 └─Image
     └─full
         │  full.rar
