@@ -3,7 +3,7 @@ layout: post
 title:  "设计模式02_工厂模式（Factory Pattern）"
 date:   2016-05-01 23:06:05
 categories: DesignPattern
-tags: 创建型模式 工厂模式
+tags: 工厂模式
 ---
 
 * content

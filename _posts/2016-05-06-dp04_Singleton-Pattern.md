@@ -3,7 +3,7 @@ layout: post
 title: "设计模式04_单例模式（Singleton Pattern）"
 date: 2016-05-05 23:06:05
 categories: DesignPattern
-tags: 创建型模式 单例模式
+tags: 单例模式
 ---
 
 * content

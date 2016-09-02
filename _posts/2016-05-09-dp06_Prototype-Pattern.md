@@ -3,7 +3,7 @@ layout: post
 title: "设计模式06_原型模式（Prototype Pattern）"
 date: 2016-05-08 23:06:05
 categories: DesignPattern
-tags: 创建型模式 原型模式
+tags: 原型模式
 ---
 
 * content
