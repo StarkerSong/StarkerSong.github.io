@@ -101,7 +101,7 @@ icon: heart
              <body>
     			<div class="row_layout">
     				<div class="resume" style="width: 210.0mm;">
-    					<div class="inner_resume" style="margin: 15.0mm 15.0mm 15.0mm 0.0mm;">
+    					<div class="inner_resume" style="margin: 0.0mm 15.0mm 15.0mm 0.0mm;">
     					
     					<div class="row" style="padding-top:0.0mm; padding-bottom:0.0mm;">
 						<table>
