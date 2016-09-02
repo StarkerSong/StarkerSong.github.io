@@ -9,7 +9,8 @@ tags: spider power-bi
 {:toc}
  
 
-本系列文章主要在简书上发布，图片链接如果有问题可直接访问我的简书页面：[基于scrapy-redis分布式网络爬虫存储数据分析](http://www.jianshu.com/p/8f1e60ce8134)
+本系列文章主要在简书上发布，图片链接如果有问题可直接访问我的简书页面：
+[基于scrapy-redis分布式网络爬虫存储数据分析](http://www.jianshu.com/p/8f1e60ce8134)
 
 # 数据分析与展示 #
 
