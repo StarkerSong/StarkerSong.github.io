@@ -979,55 +979,7 @@ icon: heart
         </td>
 							</tr>
 						</table>
-					</div><div class="row" style="padding-top:0.0mm; padding-bottom:0.0mm;">
-						<table>
-							<tr>
-								<td class="cell border_box" style="width: 24.5568%; background-color: transparent; text-align: right; vertical-align: middle; border-top: 0.75pt none #999999; border-right: 0.75pt solid #999999; border-bottom: 0.75pt none #999999; border-left: 0.75pt none #999999;">
-            <input type="hidden" name="key" value=""/>
-            <pre style="min-height: 10pt; margin: 1.0mm 3.0mm 0.0mm 0.0mm;"><span class="Tahoma" style="font-size: 10pt; color: #666666; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; line-height: 1.5;"></span></pre>
-        </td><td class="cell border_box" style="width: auto; background-color: transparent; text-align: left; vertical-align: middle; border-top: 0.75pt none #000000; border-right: 0.75pt none #000000; border-bottom: 0.75pt none #000000; border-left: 0.75pt none #000000;">
-            <input type="hidden" name="key" value="content"/>
-            <pre style="min-height: 10pt; margin: 1.0mm 0.5mm 0.0mm 1.0mm;"><span class="Tahoma" style="font-size: 10pt; color: #666666; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; line-height: 1.5;"></span></pre>
-        </td>
-							</tr>
-						</table>
-					</div><div class="row" style="padding-top:0.0mm; padding-bottom:0.0mm;">
-						<table>
-							<tr>
-								<td class="cell border_box" style="width: 24.5568%; background-color: transparent; text-align: right; vertical-align: middle; border-top: 0.75pt none #999999; border-right: 0.75pt solid #999999; border-bottom: 0.75pt none #999999; border-left: 0.75pt none #999999;">
-            <input type="hidden" name="key" value=""/>
-            <pre style="min-height: 10pt; margin: 1.0mm 3.0mm 0.0mm 0.0mm;"><span class="Tahoma" style="font-size: 10pt; color: #666666; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; line-height: 1.5;"></span></pre>
-        </td><td class="cell border_box" style="width: auto; background-color: transparent; text-align: left; vertical-align: middle; border-top: 0.75pt none #000000; border-right: 0.75pt none #000000; border-bottom: 0.75pt none #000000; border-left: 0.75pt none #000000;">
-            <input type="hidden" name="key" value="content"/>
-            <pre style="min-height: 10pt; margin: 1.0mm 0.5mm 0.0mm 1.0mm;"><span class="Tahoma" style="font-size: 10pt; color: #666666; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; line-height: 1.5;"></span></pre>
-        </td>
-							</tr>
-						</table>
-					</div><div class="row" style="padding-top:0.0mm; padding-bottom:0.0mm;">
-						<table>
-							<tr>
-								<td class="cell border_box" style="width: 24.5568%; background-color: transparent; text-align: right; vertical-align: middle; border-top: 0.75pt none #999999; border-right: 0.75pt solid #999999; border-bottom: 0.75pt none #999999; border-left: 0.75pt none #999999;">
-            <input type="hidden" name="key" value=""/>
-            <pre style="min-height: 10pt; margin: 1.0mm 3.0mm 0.0mm 0.0mm;"><span class="Tahoma" style="font-size: 10pt; color: #666666; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; line-height: 1.5;"></span></pre>
-        </td><td class="cell border_box" style="width: auto; background-color: transparent; text-align: left; vertical-align: middle; border-top: 0.75pt none #000000; border-right: 0.75pt none #000000; border-bottom: 0.75pt none #000000; border-left: 0.75pt none #000000;">
-            <input type="hidden" name="key" value="content"/>
-            <pre style="min-height: 10pt; margin: 1.0mm 0.5mm 0.0mm 1.0mm;"><span class="Tahoma" style="font-size: 10pt; color: #666666; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; line-height: 1.5;"></span></pre>
-        </td>
-							</tr>
-						</table>
-					</div><div class="row" style="padding-top:0.0mm; padding-bottom:0.0mm;">
-						<table>
-							<tr>
-								<td class="cell border_box" style="width: 24.5568%; background-color: transparent; text-align: right; vertical-align: middle; border-top: 0.75pt none #999999; border-right: 0.75pt solid #999999; border-bottom: 0.75pt none #999999; border-left: 0.75pt none #999999;">
-            <input type="hidden" name="key" value=""/>
-            <pre style="min-height: 10pt; margin: 1.0mm 3.0mm 0.0mm 0.0mm;"><span class="Tahoma" style="font-size: 10pt; color: #666666; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; line-height: 1.5;"></span></pre>
-        </td><td class="cell border_box" style="width: auto; background-color: transparent; text-align: left; vertical-align: middle; border-top: 0.75pt none #000000; border-right: 0.75pt none #000000; border-bottom: 0.75pt none #000000; border-left: 0.75pt none #000000;">
-            <input type="hidden" name="key" value="content"/>
-            <pre style="min-height: 10pt; margin: 1.0mm 0.5mm 0.0mm 1.0mm;"><span class="Tahoma" style="font-size: 10pt; color: #666666; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; line-height: 1.5;"></span></pre>
-        </td>
-							</tr>
-						</table>
-					</div>
+					</div> 
     					</div>
     				</div>
     			</div>
