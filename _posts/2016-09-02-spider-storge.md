@@ -14,6 +14,12 @@ tags: spider mysql redis mongodb
 在Windows的命令窗口中输入`tree /f  dqd`命令，出现以下文件目录结构：
 
 
+
+
+
+
+
+
 ``` python
 C:\Python27\Scripts>tree /f  dqd
 文件夹 PATH 列表
@@ -75,7 +81,7 @@ C:\PYTHON27\SCRIPTS\DQD
 
 ## 下载和存储管理 ##
 
-**settings.py设置**
+### settings.py设置 ### 
 
 ```python
 BOT_NAME = 'dqd'
@@ -161,7 +167,7 @@ class DownloadImagesPipeline(ImagesPipeline):
 
 ![图片下载](http://upload-images.jianshu.io/upload_images/1242974-6fd8cbe3a8880971.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
  
-**redis_pipelines.py**
+### redis_pipelines.py ### 
 
 ```python
 # -*- coding: utf-8 -*-
@@ -188,7 +194,7 @@ class DqdPipeline(object):
 ![redis](http://upload-images.jianshu.io/upload_images/1242974-1b355ef6716ecce8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
-**mongo_pipelines.py**
+### mongo_pipelines.py ### 
 
 ```python
 # -*- coding:utf-8 -*-
@@ -227,7 +233,7 @@ class MongoDBPipeline(object):
 ![Robomongo.png](http://upload-images.jianshu.io/upload_images/1242974-8031753fc6bc3477.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
-**mysql_pipelines.py**
+### mysql_pipelines.py ### 
 
 ```python
 # -*- coding:utf-8 -*-
