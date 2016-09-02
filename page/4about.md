@@ -475,7 +475,7 @@ icon: heart
         </td><td class="cell border_box" style="width: 41.2483%; background-color: transparent; text-align: left; vertical-align: middle; border-top: 0.75pt none #999999; border-right: 0.75pt none #999999; border-bottom: 0.75pt none #999999; border-left: 0.75pt none #999999;">
             <input type="hidden" name="key" value=""/>
             <pre style="min-height: 10.5pt; margin: 0.5mm 0.5mm 0.5mm 1.0mm;"><span class="SimSun" style="font-size: 10.5pt; color: #3d85c6; background-color: transparent; font-weight: bold; font-style: normal; text-decoration: none; line-height: 1.5;">工业和信息化部电子一所</span></pre>
-        </td><td class="cell border_box" style="width: 10.4478%; background-color: transparent; text-align: right; vertical-align: middle; border-top: 3pt none #999999; border-right: 3pt none #999999; border-bottom: 3pt none #999999; border-left: 3pt none #999999;">
+        </td><td class="cell border_box" style="width: 5%; background-color: transparent; text-align: right; vertical-align: middle; border-top: 3pt none #999999; border-right: 3pt none #999999; border-bottom: 3pt none #999999; border-left: 3pt none #999999;">
             <input type="hidden" name="key" value=""/>
             <pre style="min-height: 1pt; margin: 3.0mm 0.5mm 0.0mm 1.5mm;"><span class="SimSun" style="font-size: 1pt; color: #666666; background-color: transparent; font-weight: bold; font-style: normal; text-decoration: none; line-height: 1.0;"></span></pre>
         </td><td class="cell border_box" style="width: auto; background-color: transparent; text-align: right; vertical-align: middle; border-top: 3pt none #999999; border-right: 3pt none #999999; border-bottom: 3pt none #999999; border-left: 3pt none #999999;">
