@@ -11,14 +11,7 @@ tags: spider mysql redis mongodb
 
 # 文件目录结构 #
 
-在Windows的命令窗口中输入`tree /f  dqd`命令，出现以下文件目录结构：
-
-
-
-
-
-
-
+在Windows的命令窗口中输入`tree /f  dqd`命令，出现以下文件目录结构： 
 
 ``` python
 C:\Python27\Scripts>tree /f  dqd
