@@ -141,10 +141,10 @@ icon: heart
             <pre style="min-height: 22pt; margin: 0.0mm 3.0mm 0.0mm 3.0mm;"><span class="SimHei" style="font-size: 22pt; color: #000000; background-color: transparent; font-weight: bold; font-style: normal; text-decoration: none; line-height: 1.15;"></span></pre>
         </td><td class="cell border_box" style="width: 28.268%; background-color: #666666; text-align: center; vertical-align: middle; border-top: 3pt none #cccccc; border-right: 3pt none #cccccc; border-bottom: 3pt none #cccccc; border-left: 3pt solid #cccccc;">
             <input type="hidden" name="key" value=""/>
-            <pre style="min-height: 12pt; margin: 0.0mm 3.0mm 0.0mm 3.0mm;"><span class="SimSun" style="font-size: 12pt; color: #999999; background-color: transparent; font-weight: bold; font-style: normal; text-decoration: none; line-height: 1.0;">2017届中国科学院大学</span></pre>
+            <pre style="min-height: 12pt; margin: 0.0mm 3.0mm 0.0mm 3.0mm;"><span class="SimSun" style="font-size: 11pt; color: #FFF; background-color: transparent; font-weight: bold; font-style: normal; text-decoration: none; line-height: 1.0;">2017届中国科学院大学</span></pre>
         </td><td class="cell border_box" style="width: auto; background-color: transparent; text-align: left; vertical-align: middle; border-top: 0.75pt none #000000; border-right: 0.75pt none #000000; border-bottom: 0.75pt none #000000; border-left: 0.75pt none #000000;">
             <input type="hidden" name="key" value=""/>
-            <pre style="min-height: 10pt; margin: 0.0mm 0.0mm 0.0mm 3.0mm;"><span class="Arial" style="font-size: 10pt; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; line-height: 1.15;">求职意向：研发、数据库开发、算法工程师等</span></pre>
+            <pre style="min-height: 10pt; margin: 0.0mm 0.0mm 0.0mm 3.0mm;"><span class="Arial" style="font-size: 10pt; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; line-height: 1.15;"> </span></pre>
         </td>
 							</tr>
 						</table>
@@ -796,7 +796,7 @@ icon: heart
         </td><td class="cell border_box" style="width: 3.25871%; background-color: transparent; text-align: center; vertical-align: top; border-top: 0.75pt none #000000; border-right: 0.75pt none #000000; border-bottom: 0.75pt none #000000; border-left: 0.75pt none #000000;">
             <input type="hidden" name="key" value="bullet"/>
             <pre style="min-height: 10pt; margin: 1.0mm 0.5mm 0.0mm 3.0mm;"><span class="Tahoma" style="font-size: 10pt; color: #666666; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; line-height: 1.5;">•</span></pre>
-        </td><td class="cell border_box" style="width: 24.9661%; background-color: transparent; text-align: left; vertical-align: middle; border-top: 0.75pt none #000000; border-right: 0.75pt none #000000; border-bottom: 0.75pt none #000000; border-left: 0.75pt none #000000;">
+        </td><td class="cell border_box" style="width: 30.0%; background-color: transparent; text-align: left; vertical-align: middle; border-top: 0.75pt none #000000; border-right: 0.75pt none #000000; border-bottom: 0.75pt none #000000; border-left: 0.75pt none #000000;">
             <input type="hidden" name="key" value="scholarship"/>
             <pre style="min-height: 10pt; margin: 1.0mm 0.5mm 0.0mm 1.0mm;"><span class="Tahoma" style="font-size: 10pt; color: #666666; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; line-height: 1.5;">奖学金：校学业奖学金一等奖</span></pre>
         </td><td class="cell border_box" style="width: auto; background-color: transparent; text-align: right; vertical-align: middle; border-top: 0.75pt none #000000; border-right: 0.75pt none #000000; border-bottom: 0.75pt none #000000; border-left: 0.75pt none #000000;">
@@ -856,7 +856,7 @@ icon: heart
         </td><td class="cell border_box" style="width: 3.25871%; background-color: transparent; text-align: center; vertical-align: top; border-top: 0.75pt none #000000; border-right: 0.75pt none #000000; border-bottom: 0.75pt none #000000; border-left: 0.75pt none #000000;">
             <input type="hidden" name="key" value="bullet"/>
             <pre style="min-height: 10pt; margin: 1.0mm 0.5mm 0.0mm 3.0mm;"><span class="Tahoma" style="font-size: 10pt; color: #666666; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; line-height: 1.5;">•</span></pre>
-        </td><td class="cell border_box" style="width: 24.9661%; background-color: transparent; text-align: left; vertical-align: middle; border-top: 0.75pt none #000000; border-right: 0.75pt none #000000; border-bottom: 0.75pt none #000000; border-left: 0.75pt none #000000;">
+        </td><td class="cell border_box" style="width: 30.0%; background-color: transparent; text-align: left; vertical-align: middle; border-top: 0.75pt none #000000; border-right: 0.75pt none #000000; border-bottom: 0.75pt none #000000; border-left: 0.75pt none #000000;">
             <input type="hidden" name="key" value="scholarship"/>
             <pre style="min-height: 10pt; margin: 1.0mm 0.5mm 0.0mm 1.0mm;"><span class="Tahoma" style="font-size: 10pt; color: #666666; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; line-height: 1.5;">校级三好学生、二等奖学金</span></pre>
         </td><td class="cell border_box" style="width: auto; background-color: transparent; text-align: right; vertical-align: middle; border-top: 0.75pt none #000000; border-right: 0.75pt none #000000; border-bottom: 0.75pt none #000000; border-left: 0.75pt none #000000;">
