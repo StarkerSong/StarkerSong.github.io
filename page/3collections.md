@@ -8,83 +8,59 @@ icon: bookmark
 * content
 {:toc}
 
-## 2016
+ ## 在线学习网站推荐
 
-### 4月书单 
+- [coursera](https://www.coursera.org/)国内外顶级高校课程
 
-<table style="font-family:times;color:gray; width:100%;align:left; vertical-align:middle;text-align: left">
- <tr style="   ">
-<td style="font-weight: bold;vertical-align:middle">封面
-</td>
-<td style="font-weight: bold;vertical-align:middle">名称
-</td> 
-
-</td>
-<td style="font-weight: bold;vertical-align:middle;width:20%">状态
-</td> 
-</tr> 
+## 基础知识
+- [数据结构和算法动态可视化 (Chinese)](http://zh.visualgo.net/) 图文并茂，简单直观
+- [C++教程网：C++程序设计门户网站！](http://www.weixueyuan.net/cpp/)
+- [C++设计模式](http://www.weixueyuan.net/cpp/shejimoshi/)
 
 
-<tr>
-<td width="30%">
- <img src="https://img3.doubanio.com/mpic/s27279654.jpg" width="100%"/>
-</td>
-<td>
-<strong>活着</strong><br>
-余华 / 作家出版社 / 2012-8-1 / 20.00元
-</td> 
-<td>
-<input name="checkbox" type="checkbox" checked="checked" value="checkbox"  /> 已读
-</td> 
-</tr> 
+## 技术博客推荐
+
+ - [何登成的技术博客](http://hedengcheng.com/)  数据库领域 阿里
+ - [赖明星(Mingxing LAI)](https://bestswifter.com/bat-interview/) 数据库领域 网易
+
+
+## 搭建自己的博客
+
+- [如何搭建一个独立博客——简明Github Pages与Hexo教程](http://www.jianshu.com/p/05289a4bc8b2)
+- [hexo的私人订制](http://blog.sunnyxx.com/2014/03/07/hexo_customize/)
+
+## 面试经验贴
+
+- [九月十月百度，迅雷，华为，阿里巴巴笔试面试六十题(第411~470题)](http://blog.csdn.net/v_july_v/article/details/11921021) july大神整理的文章，帮助了一大批人拿到了offer
+- [BAT面试指南](https://bestswifter.com/bat-interview/)  拉到底部有总结的常见的算法题
+- [9个offer，12家公司，35场面试，从微软到谷歌，应届计算机毕业生的2012求职之路](http://www.cnblogs.com/figure9/archive/2013/01/09/2853649.html) 
+- [[算法面试] 大公司笔试面试有哪些经典算法题目？](http://www.itmian4.com/thread-9003-1-2.html)
+- [阿里、蘑菇街、猿题库、百度、豆瓣以及搜狗的面经](http://www.nowcoder.com/discuss/4484) 内容详细比较用心
+
+## 职业发展
+
+- [数据解读互联网技术人才薪资](https://100offer.com/blog/posts/131) 100offer提供的人才数据分析，透彻清楚
+
+## 技能学习经验
  
+- [C++转iOS开发5个月总结](http://everettjf.github.io/2015/11/18/the-past-4-months-ios-develop-for-me)
+- [《Android 开发工程师面试指南》](http://www.diycode.cc/wiki/androidinterview)
 
-<tr>
-<td width="30%">
- <img src="https://img3.doubanio.com/mpic/s1638975.jpg" width="100%"/>
-</td>
-<td>
-<strong>C++ Primer 中文版（第 4 版）</strong><br>
-Stanley B.Lippman、Josée LaJoie、Barbara E.Moo / 李师贤、蒋爱军、梅晓勇、林瑛 / 人民邮电出版社 / 2006 / 99.00元
-</td> 
-<td>
-<input name="checkbox" type="checkbox" value="checkbox"  /> 已读
-</td> 
-</tr> 
- 
+## 技术导航网站
+ - [主要的常用在线工具]( http://tool.oschina.net)包含各类的说明文档以及常用的工具
+![](http://images2015.cnblogs.com/blog/681089/201608/681089-20160817235123093-1250691126.png)
 
-<tr>
-<td width="30%">
- <img src="https://img3.doubanio.com/mpic/s7038106.jpg" width="100%"/>
-</td>
-<td>
-<strong>剑指Offer : 名企面试官精讲典型编程题</strong><br>
-何海涛 / 电子工业出版社 / 2012-1 / 45.00元
-</td> 
-<td>
-<input name="checkbox" type="checkbox" value="checkbox"  /> 已读
-</td> 
-</tr> 
- 
+ - [菜鸟教程]( http://www.runoob.com/)菜鸟教程提供了最全的基础编程技术教程 
+![](http://images2015.cnblogs.com/blog/681089/201608/681089-20160817235400281-1516334220.png)
 
-<tr>
-<td width="30%">
- <img src="https://img3.doubanio.com/mpic/s2870233.jpg" width="100%"/>
-</td>
-<td>
-<strong>C陷阱与缺陷 : C语言调试指南</strong><br>
-凯尼格 / 高巍 / 人民邮电出版社 / 2008-2-1 / 30.00元
-</td> 
-<td>
-<input name="checkbox" type="checkbox" checked="checked" value="checkbox"  /> 已读
-</td> 
-</tr> 
- 
+  - [极客导航]( http://www.gogeeks.cn/) 主要根据职业类别来导航分类
+ ![](http://images2015.cnblogs.com/blog/681089/201608/681089-20160817235637171-1148572335.png)
 
 
-</table>
 
+## 文献下载站点
 
+- [arXiv.org](http://everettjf.github.io/2015/11/18/the-past-4-months-ios-develop-for-me)
  
  
  
