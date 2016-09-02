@@ -48,13 +48,12 @@ icon: bookmark
 
 ## 技术导航网站
  - [主要的常用在线工具]( http://tool.oschina.net)包含各类的说明文档以及常用的工具
-![](http://images2015.cnblogs.com/blog/681089/201608/681089-20160817235123093-1250691126.png)
-
+ 
  - [菜鸟教程]( http://www.runoob.com/)菜鸟教程提供了最全的基础编程技术教程 
-![](http://images2015.cnblogs.com/blog/681089/201608/681089-20160817235400281-1516334220.png)
+ 
 
   - [极客导航]( http://www.gogeeks.cn/) 主要根据职业类别来导航分类
- ![](http://images2015.cnblogs.com/blog/681089/201608/681089-20160817235637171-1148572335.png)
+ 
 
 
 
