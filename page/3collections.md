@@ -11,6 +11,12 @@ icon: bookmark
 ## 在线学习网站推荐
 
 - [coursera](https://www.coursera.org/)国内外顶级高校课程
+- [学堂在线](http://www.xuetangx.com/)免费公开的MOOC（大规模开放在线课程）平台，课程内容丰富
+- [网易云课堂](http://study.163.com/)
+- [MOOC学院](http://mooc.guokr.com/)
+- [leetcode](https://leetcode.com/)在线编程练习
+- [牛客网](http://www.nowcoder.com/) 在线编程练习，一线互联网公司题库
+
 
 ## 基础知识
 - [数据结构和算法动态可视化 (Chinese)](http://zh.visualgo.net/) 图文并茂，简单直观
@@ -22,6 +28,7 @@ icon: bookmark
 
  - [何登成的技术博客](http://hedengcheng.com/)  数据库领域 阿里
  - [赖明星(Mingxing LAI)](https://bestswifter.com/bat-interview/) 数据库领域 网易
+ - [huangxy10的专栏](http://blog.csdn.net/huangxy10)
 
 
 ## 搭建自己的博客
