@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "linux目录结构详细介绍"
-date: 2016-09-05 18:43:34 +0800
+date: 2016-07-25 18:43:34 +0800
 categories: linux
 tags: linux
 ---
