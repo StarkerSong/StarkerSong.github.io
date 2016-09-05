@@ -18,6 +18,11 @@ icon: bookmark
 - [牛客网](http://www.nowcoder.com/) 在线编程练习，一线互联网公司题库
 
 
+## 图形学 ##
+
+- [LearnOpenGL](https://learnopengl-cn.github.io/ "LearnOpenGL")提供了现代(Core-profile) OpenGL的基础，中级，以及高级知识。使用易于理解的形式，使用清晰的例子，展现现代OpenGL的所有知识点，与此同时为以后的学习提供有用的参考。
+- [OpenGL Tutorials](http://opengl.zilongshanren.com/content/index.html)提供现代OpenGL方法，适合入门。 
+
 ## 基础知识
 - [数据结构和算法动态可视化 (Chinese)](http://zh.visualgo.net/) 图文并茂，简单直观
 - [C++教程网：C++程序设计门户网站！](http://www.weixueyuan.net/cpp/)
