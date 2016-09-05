@@ -31,7 +31,7 @@ icon: bookmark
 * [赖明星(Mingxing LAI)](https://bestswifter.com/bat-interview/) 数据库领域 网易
 * [huangxy10的专栏](http://blog.csdn.net/huangxy10)
 
-**其他网站**
+**网站**
 
 * [MySQL 官网](http://www.mysql.com/) 这个网站再熟悉不过了吧；
 * [ITPub](http://www.itpub.net/forum.php) 这个网站在国内很有名，上面孕育了一大批杰出的数据库大牛；
@@ -68,6 +68,13 @@ icon: bookmark
 
 - [LearnOpenGL](https://learnopengl-cn.github.io/ "LearnOpenGL")提供了现代(Core-profile) OpenGL的基础，中级，以及高级知识。使用易于理解的形式，使用清晰的例子，展现现代OpenGL的所有知识点，与此同时为以后的学习提供有用的参考。
 - [OpenGL Tutorials](http://opengl.zilongshanren.com/content/index.html)提供现代OpenGL方法，适合入门。  
+- [Circles and spheres](http://paulbourke.net/geometry/circlesphere/)用来处理圆和球体的算法
+
+
+
+**网站**
+
+- [OpenGL](https://www.opengl.org/) OpenGL官方网站
 
 
 ## 其他
