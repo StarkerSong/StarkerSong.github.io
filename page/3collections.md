@@ -23,6 +23,60 @@ icon: bookmark
 - [LearnOpenGL](https://learnopengl-cn.github.io/ "LearnOpenGL")提供了现代(Core-profile) OpenGL的基础，中级，以及高级知识。使用易于理解的形式，使用清晰的例子，展现现代OpenGL的所有知识点，与此同时为以后的学习提供有用的参考。
 - [OpenGL Tutorials](http://opengl.zilongshanren.com/content/index.html)提供现代OpenGL方法，适合入门。 
 
+
+## 数据库 ##
+
+* [MySQL Performance](http://www.percona.com/blog) 这应该是每个 MySQL DBA 必上的博客；
+* [Planet MySQL](http://planet.mysql.com/) MySQL 官方出品；
+* [Dba Square](http://www.dbasquare.com/) 非常不错的博客；
+* [High Availability MySQL](http://mysqlha.blogspot.com/) 了解 MySQL 高性能；
+* [Baron Schwartz](http://www.xaprb.com/blog) 「高性能 MySQL」 作者的博客；
+* [Ronald Bradford](http://ronaldbradford.com/blog/) 「Effective MySQL」 系列作者的博客；
+* [Yoshinori Matsunobu](http://yoshinorimatsunobu.blogspot.com/) 博主是 Facebook 数据库工程师。
+* [NoSQL Notes](http://www.nosqlnotes.net/) 阿里日照前辈的博客；
+* [InsideMySQL](http://www.innomysql.net/) 「MySQL 技术内幕：InnoDB 存储引擎」、「MySQL 技术内幕：SQL 编程」、「MySQL 内核：InnoDB 存储引擎 卷1」作者姜承尧前辈博客；
+* [DBA Notes](http://dbanotes.net/) 冯老师的博客，但现在的重心不是数据库了；
+* [AnySQL](http://www.anysql.net/) 楼方鑫前辈的博客；
+* [Sky Jian](http://isky000.com/) 「MySQL 性能优化与架构设计」作者简朝阳前辈的博客；
+* [NinGoo](http://www.ningoo.net/) 阿里巴巴 DBA 宁海元前辈博客；
+* [yejr](http://imysql.com/) MySQL 中文网站长叶金荣前辈博客；
+* [orczhou](http://www.orczhou.com/) 淘宝 MySQL DBA 周振兴前辈博客；
+* [Focus on MySQL/InnoDB kernel](http://www.gpfeng.com/) 阿里巴巴 MySQL 内核开发工程师郭鹏前辈的博客。
+
+**其他网站**
+
+* [MySQL 官网](http://www.mysql.com/) 这个网站再熟悉不过了吧；
+* [ITPub](http://www.itpub.net/forum.php) 这个网站在国内很有名，上面孕育了一大批杰出的数据库大牛；
+* [GitHub](https://github.com/) 我认为这是 IT 从业者必上的网站；
+* [Stack Overflow](http://stackoverflow.com/) 相信平时遇到的问题都可以在上面找到不错的答案；
+* [开源中国](http://www.oschina.net/) 国内首屈一指的网站，为开源事业做了巨大贡献；
+* [InfoQ](http://www.infoq.com/cn) 很多分享，值得关注的网站；
+* [WooYun](http://drops.wooyun.org/) 关注安全的好去处；
+* [知乎周刊](http://zhuanlan.zhihu.com/Weekly) 充电的好网站；
+* [码农周刊](http://weekly.manong.io/) 还是应该关注编程；
+* [Startup News](http://news.dbanotes.net/) 冯老师做的；
+* [极客头条](http://geek.csdn.net/) 关注互联网动态。
+
+**书籍**
+
+* [数据库系统概念](http://book.douban.com/subject/10548379/) 这本书是数据库领域的 Bible；
+* [数据库原理](http://book.douban.com/subject/6976278/) 深入理解数据库，同样值得一读；
+* [数据库原理、编程与性能](http://book.douban.com/subject/1094413/) 理解查询优化和查询性能的好书；
+* [深入浅出 MySQL 数据库开发、优化与管理维护](http://book.douban.com/subject/3012338/) 适合初学者；
+* [深入理解 MySQL](http://book.douban.com/subject/4188364/) MySQL 经典书籍；
+* [深入理解 MySQL 核心技术](http://book.douban.com/subject/4022870/) MySQL DBA 必读书籍之一；
+* [MySQL 性能调优与架构设计](http://book.douban.com/subject/3729677/) 国人写的书，值得一读；
+* [高可用 MySQL——构建健壮的数据中心](http://book.douban.com/subject/6847455/) 同样是经典之作；
+* [高性能 MySQL](http://book.douban.com/subject/4241826/) 一本高可用，一本高性能，经典无需言语；
+* [MySQL 技术内幕：InnoDB 存储引擎](http://book.douban.com/subject/24708143/) 国人所著，现在已经是第二版了；
+* [MySQL 技术内幕：SQL 编程](http://book.douban.com/subject/10569620/) 说实话，这本书质量乏善可陈；
+* [MySQL 内核：InnoDB 存储引擎 卷1](http://book.douban.com/subject/25872763/) 与上两本出自同一作者，阅读 MySQL 内核不可多得得指导书； 
+* [MongoDB 权威指南](http://book.douban.com/subject/6068947/) MongoDB 经典书籍；
+* [深入学习 MongoDB](http://book.douban.com/subject/10439364/) MongoDB 深入好帮手；
+* [MongoDB 实战](http://book.douban.com/subject/19977785/) 实战教程； 
+* [计算机科学丛书](http://book.douban.com/series/1163) 这应该是计算机领域的权威书籍了。
+
+
 ## 基础知识
 - [数据结构和算法动态可视化 (Chinese)](http://zh.visualgo.net/) 图文并茂，简单直观
 - [C++教程网：C++程序设计门户网站！](http://www.weixueyuan.net/cpp/)
