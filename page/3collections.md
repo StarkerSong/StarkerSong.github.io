@@ -69,7 +69,7 @@ icon: bookmark
 - [LearnOpenGL](https://learnopengl-cn.github.io/ "LearnOpenGL")提供了现代(Core-profile) OpenGL的基础，中级，以及高级知识。使用易于理解的形式，使用清晰的例子，展现现代OpenGL的所有知识点，与此同时为以后的学习提供有用的参考。
 - [OpenGL Tutorials](http://opengl.zilongshanren.com/content/index.html)提供现代OpenGL方法，适合入门。  
 - [Circles and spheres](http://paulbourke.net/geometry/circlesphere/)用来处理圆和球体的算法
-
+- [现代 OpenGL 教程](http://wiki.jikexueyuan.com/project/modern-opengl-tutorial/) 先从最基本的图形绘制讲起，然后由浅及深的介绍了可编程渲染管线中的各种矩阵设置、光照计算，以及许多常用的渲染技术。
 
 
 **网站**
