@@ -23,7 +23,7 @@ tags: block-theory equilirium-region OpenGL
 
 
 
-##  ##
+
 
 绘制平衡区域图的三维构造与Pyramid.cpp文件中下面的函数方法是相同的：
 
@@ -104,6 +104,9 @@ void Pyramid::renderInSphere(PyramidEdgeArray *ea, PlaneArray *pa /* = 0 */)
   jpi ->render ( _jp_edge_array .data (), _jp_plane_array . data());      // 绘制节理锥
 ```
 
-## 解决方案 ##
+## 总结 ##
 
-其实绘制平衡区域图的方法与绘制赤平投影的方法是一致的，只要将绘制平衡区域的二维按照赤平投影的方法转换到三维空间就可以了。具体的转换的难点就在于如何获取各个区域的绘制的点的信息了。
+其实绘制平衡区域图的方法与绘制赤平投影的方法是一致的，只要将绘制平衡区域的二维按照赤平投影的方法转换到三维空间就可以了。具体的转换的难点就在于如何获取各个区域的绘制的点的信息了。涉及知识点：
+
+- 空间几何
+- 平衡区域图
