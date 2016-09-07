@@ -8,7 +8,7 @@ tags: vector
 * content
 {:toc}
 
-![](http://i.imgur.com/dh8th56.png)
+![](http://i.imgur.com/5R4UQQB.jpg)
 
 在`C++`中经常会用到`vector`容器，基本内容如下：
 
@@ -167,11 +167,11 @@ return 0;
 ` reverse(vec.begin(),vec.end()); ` 
 
 - 使用**sort**排序 `sort(vec.begin(),vec.end());`(默认是按升序排列,即从小到大). 可以通过重写排序比较函数按照降序比较，如下： 定义排序比较函数：
-	```
-	bool Comp(const int &a,const int &b)
-	{
-	    return a>b;
-	}
-	//调用时:sort(vec.begin(),vec.end(),Comp)，这样就降序排序。
-	```
+```cpp
+bool Comp(const int &a,const int &b)
+{
+    return a>b;
+}
+//调用时:sort(vec.begin(),vec.end(),Comp)，这样就降序排序。
+```
 
