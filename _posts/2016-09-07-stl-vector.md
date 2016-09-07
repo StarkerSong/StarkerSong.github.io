@@ -164,9 +164,11 @@ return 0;
 需要头文件`#include <algorithm>`
 
 - 使用**reverse**将元素翻转 
+
 ` reverse(vec.begin(),vec.end()); ` 
 
 - 使用**sort**排序 `sort(vec.begin(),vec.end());`(默认是按升序排列,即从小到大). 可以通过重写排序比较函数按照降序比较，如下： 定义排序比较函数：
+
 ```cpp
 bool Comp(const int &a,const int &b)
 {
