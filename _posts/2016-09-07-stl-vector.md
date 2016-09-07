@@ -8,8 +8,15 @@ tags: vector
 * content
 {:toc}
 
+![](http://i.imgur.com/dh8th56.png)
 
 在`C++`中经常会用到`vector`容器，基本内容如下：
+
+
+
+
+
+
 
 ## 基本操作 ##
 
@@ -17,6 +24,7 @@ tags: vector
 - 创建vector对象 `vector<int> vec`
 - 尾部插入数字 `vec.push_back(a)`
 - 使用下标访问元素`cout<<vec[0]<<endl;`记住下标是从0开始的。
+
 ### 访问元素  ###
 
 ```cpp
@@ -74,6 +82,7 @@ myvector contains: 1 2 3 4 5 100 100 100 0 0 0 0
 ## 基本用法 ##
 
 ```cpp
+
 // constructing vectors
 #include <iostream>
 #include <vector>
@@ -97,7 +106,6 @@ int main ()
 
   return 0;
 }
-
 
 
 The contents of fifth are: 16 2 77 29
