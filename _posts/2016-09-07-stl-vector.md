@@ -52,6 +52,38 @@ for (; rit!= myvector.rend(); ++rit)
      `vec.erase(vec.begin()+i,vec.end()+j);`删除区间[i,j-1];区间从0开始
 	 `vec.pop_back();`删除最后一个元素
 
+### 初始化和赋值 ###
+
+```cpp
+void assign( input_iterator start, input_iterator end ); //
+void assign( size_type num, const TYPE &val );
+```
+
+定义空二维vector，再赋值
+
+```cpp
+vector<vector <int> > ivec(m ,vector<int>(n)); //m*n的二维vector，注意两个 "> "之间要有空格！
+void assign(const_iterator first, const_iterator last);
+void assign( size_type _Count, const Type& _Val ); // 赋值，用指定元素序列替换容器内所有元素
+```
+
+定义并初始化二维数组
+
+```cpp
+vector<vector <int> > ivec(m ,vector<int>(n,0)); //m*n的二维vector，所有元素初始化为0
+```
+
+
+### 删除元素 ###
+
+```cpp
+iterator erase(iterator it); // 删除指定元素，并返回删除元素后一个元素的位置（如果无元素，返回end()）
+iterator erase(iterator first, iterator last); // 注意：删除元素后，删除点之后的元素对应的迭代器不再有效。
+
+void clear() const; // 函数删除当前vector中的所有元素，相当于调用erase( begin(), end())
+
+```
+
 ### 容量 ###
 
 ```cpp
