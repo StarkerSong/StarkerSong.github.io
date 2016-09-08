@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "多一点耐心，少一点感伤"
+title: "一夜又一页"
 date: 2016-09-06 16:32:28 +0800
 categories: life
 tags: work
@@ -8,7 +8,7 @@ tags: work
 * content
 {:toc}
 
-静静地敲着代码就敲不下去了，突然想到了很多事情......
+安静的夜，代码敲不下去了，突然想到了很多事情......
 
  ![](http://i.imgur.com/Yh0ER6b.jpg)
 
