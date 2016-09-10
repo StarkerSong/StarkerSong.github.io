@@ -8,8 +8,7 @@ tags: MySQL Performance
 * content
 {:toc}
 
-![](http://i.imgur.com/rVrPrRJ.jpg)
-
+![](http://i.imgur.com/q5x4JOK.png)
 
 
 
