@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "【笔试】数组和指针详解" 
+title: "数组和指针详解" 
 date: 2016-09-11 21:25:58 +0800
 categories: Basics 
 tags: 数组 指针  
