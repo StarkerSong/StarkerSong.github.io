@@ -38,7 +38,7 @@ tags: thread process
 
 ![](http://i.imgur.com/xDV8BFC.jpg)
 
-
+ 
 
 ### 进程和程序的区别 ###
 
