@@ -3,7 +3,7 @@ layout: post
 title: "数据库设计与范式"
 date: 2016-09-17 22:37:05 +0800
 categories: MySQL
-tags: 范式
+tags: bcnf
 ---
 * content
 {:toc}
