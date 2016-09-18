@@ -3,7 +3,7 @@ layout: post
 title: "基于scrapy-redis分布式网络爬虫存储数据分析（二）"
 date: 2016-09-02 15:38:55 +0800
 categories: scrapy-redis
-tags: spider mysql redis mongodb
+tags: spider MySQL redis mongodb
 ---
 * content
 {:toc}
