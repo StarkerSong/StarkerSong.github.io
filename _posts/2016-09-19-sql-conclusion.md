@@ -2,8 +2,8 @@
 layout: post
 title: "leetcode数据库总结"
 date: 2016-09-19 22:52:21 +0800
-categories: MySQL
-tags: MySQL
+categories: SQL
+tags: SQL
 ---
 * content
 {:toc}

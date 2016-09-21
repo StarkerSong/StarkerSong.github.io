@@ -2,8 +2,8 @@
 layout: post
 title: "leetcode数据库总结（1）-Combine Two Tables"
 date: 2016-09-20 23:27:20 +0800
-categories: MySQL
-tags: MySQL
+categories: SQL
+tags: SQL
 ---
 * content
 {:toc}
