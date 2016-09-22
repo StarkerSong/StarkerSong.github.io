@@ -2,7 +2,7 @@
 layout: post
 title: "leetcode数据库总结（2）-Second Highest Salary"
 date: 2016-09-21 22:54:55 +0800
-categories: SQL
+categories: MySQL
 tags: SQL
 ---
 * content
@@ -42,7 +42,7 @@ tags: SQL
 
 ### 解决方案 ###
 
-我的想法是`Employee`表中的`Salary`数据与`null`并起来，经过排序后`null`将会排在最后面，所以接下来就可以使用`limit`了。
+这个问题的难点是数据量不足两个的情况分析。我的想法是`Employee`表中的`Salary`数据与`null`并起来，经过排序后`null`将会排在最后面，所以接下来就可以使用`limit`了。
 
 **时间性能：**907 ms
 

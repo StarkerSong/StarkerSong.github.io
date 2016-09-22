@@ -2,7 +2,7 @@
 layout: post
 title: "leetcode数据库总结"
 date: 2016-09-19 22:52:21 +0800
-categories: SQL
+categories: MySQL
 tags: SQL
 ---
 * content

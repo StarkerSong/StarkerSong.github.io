@@ -33,7 +33,7 @@ icon: bookmark
 
 **网站**
 
-* [MySQL 官网](http://www.mysql.com/) 这个网站再熟悉不过了吧；
+* [MySQL 官网](http://www.mysql.com/) 关注下MySQL的最新特性以及相关资源；
 * [ITPub](http://www.itpub.net/forum.php) 这个网站在国内很有名，上面孕育了一大批杰出的数据库大牛；
 * [GitHub](https://github.com/) 我认为这是 IT 从业者必上的网站；
 * [Stack Overflow](http://stackoverflow.com/) 相信平时遇到的问题都可以在上面找到不错的答案；
@@ -70,6 +70,8 @@ icon: bookmark
 - [OpenGL Tutorials](http://opengl.zilongshanren.com/content/index.html)提供现代OpenGL方法，适合入门。  
 - [Circles and spheres](http://paulbourke.net/geometry/circlesphere/)用来处理圆和球体的算法
 - [现代 OpenGL 教程](http://wiki.jikexueyuan.com/project/modern-opengl-tutorial/) 先从最基本的图形绘制讲起，然后由浅及深的介绍了可编程渲染管线中的各种矩阵设置、光照计算，以及许多常用的渲染技术。
+- [现代图形学编程](http://ogldev.atspace.co.uk/index.html)结合具体事例，由浅入深介绍OpenGL。
+- [Scratchapixel 2.0](http://www.scratchapixel.com/index.php) 主要学习图形学，网站上提供了非常丰富的资源。
 
 
 **网站**
