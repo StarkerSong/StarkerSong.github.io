@@ -69,6 +69,13 @@ END
 
 本篇内容除了要了解上篇的内容，还需要了解创建函数的方法。还需要注意的是数据库中的索引是从`0`开始的，所以在查询时需要对计数`N`减一。
 
+```sql
+-- 第一个参数指定第一个返回记录行的偏移量
+-- 第二个参数指定返回记录行的最大数目
+SELECT * FROM table  LIMIT [offset,] rows | rows OFFSET offset
+
+SELECT * FROM table LIMIT 95,-1; -- 检索记录行 96-last.
+```
 
 
 
