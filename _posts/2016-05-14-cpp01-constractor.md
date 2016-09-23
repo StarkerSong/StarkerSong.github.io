@@ -2,7 +2,7 @@
 layout: post
 title:  "Cpp Primer_复制控制"
 date:   2016-05-14 23:06:05
-categories: Cpp
+categories: C++
 tags: 复制构造函数 赋值操作符 析构函数 智能指针
 ---
 * content

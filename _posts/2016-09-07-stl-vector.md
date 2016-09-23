@@ -2,8 +2,8 @@
 layout: post
 title: "STL-Vector"
 date: 2016-08-07 13:07:19 +0800
-categories: stl
-tags: vector
+categories: C++
+tags: vector STL
 ---
 * content
 {:toc}
