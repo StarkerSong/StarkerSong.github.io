@@ -162,8 +162,10 @@ class DownloadImagesPipeline(ImagesPipeline):
 ```
  以下图片为下载内容
 
-![图片下载](http://upload-images.jianshu.io/upload_images/1242974-6fd8cbe3a8880971.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
- 
+
+![](http://i.imgur.com/hAfDsT5.png)
+
+
 ### redis_pipelines.py ### 
 
 ```python
@@ -188,8 +190,8 @@ class DqdPipeline(object):
 - `dqdspider:dupefilter`用来过滤重复的请求
 - `dqdspider:items`爬取的信息内容
 
-![redis](http://upload-images.jianshu.io/upload_images/1242974-1b355ef6716ecce8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
+![](http://i.imgur.com/PVAL3uj.png)
 
 ### mongo_pipelines.py ### 
 
@@ -226,9 +228,8 @@ class MongoDBPipeline(object):
 
 为了展示MongoDB中的数据内容使用了管理工具Robomongo查看爬取的内容。
 
-
-![Robomongo.png](http://upload-images.jianshu.io/upload_images/1242974-8031753fc6bc3477.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
+ 
+![](http://i.imgur.com/w66B41l.png)
 
 ### mysql_pipelines.py ### 
 
@@ -298,8 +299,8 @@ class MySQLPipeline(object):
 ```
 
 在这里将爬取的信息进行清洗和转储。
- 
-![MySQL](http://upload-images.jianshu.io/upload_images/1242974-9375652d82588dd7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+![](http://i.imgur.com/WYfcXWc.png)
 
 # 总结 #
 
