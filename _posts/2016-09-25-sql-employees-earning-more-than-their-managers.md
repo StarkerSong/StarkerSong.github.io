@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ""leetcode数据库总结（5）- Employees Earning More Than Their Managers" 
+title: "leetcode数据库总结（6）- Employees Earning More Than Their Managers" 
 date: 2016-09-25 22:26:16 +0800
 categories: MySQL
 tags: SQL
