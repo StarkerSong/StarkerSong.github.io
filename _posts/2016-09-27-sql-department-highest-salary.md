@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "leetcode数据库总结（9）-Department Highest Salary
+title: "leetcode数据库总结（9）-Department Highest Salary"
 date: 2016-09-27 17:39:51 +0800
 categories: MySQL
 tags: SQL
