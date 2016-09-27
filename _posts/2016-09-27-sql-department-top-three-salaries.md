@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "leetcode数据库总结（9）-Department Top Three Salaries"
+title: "leetcode数据库总结（10）-Department Top Three Salaries"
 date: 2016-09-27 18:57:45 +0800
 categories: MySQL
 tags: SQL
@@ -21,7 +21,7 @@ tags: SQL
 
 
 
-## 182. Department Highest Salary ##
+## 185. Department Top Three Salaries ##
 
 ### 表结构 ###
 
