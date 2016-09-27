@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "leetcode数据库总结（9）-Delete Duplicate Emails"
+title: "leetcode数据库总结（11）-Delete Duplicate Emails"
 date: 2016-09-27 21:13:02 +0800
 categories: MySQL
 tags: SQL
