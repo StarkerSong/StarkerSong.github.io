@@ -35,6 +35,7 @@ InnoDB是通用的高可用、高性能的存储引擎，在MySQL中，InnoDB是
 
 
 
+
 ## 参考资料 ##
 
 [16.1 Setting the Storage Engine](http://dev.mysql.com/doc/refman/5.7/en/storage-engine-setting.html)http://dev.mysql.com/doc/refman/5.7/en/storage-engine-setting.html
