@@ -11,6 +11,24 @@ tags: lock transaction
 ![](http://i.imgur.com/TxPjy6g.jpg)
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 在命令窗口中可以通过`show engines`命令查询MySQL支持的存储引擎。各个存储引擎有各自的优势，在选用时应该根据具体的业务选择合适的存储引擎。
 
 ![](http://i.imgur.com/DYWs0wP.png)
