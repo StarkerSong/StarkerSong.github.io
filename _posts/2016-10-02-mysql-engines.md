@@ -36,12 +36,180 @@ InnoDB是通用的高可用、高性能的存储引擎，在MySQL中，InnoDB是
 
 ### Archive ###
 
-Archive只支持`Insert`和`Select`操作，每次`select`查询都需要执行全表扫描，Archive表适合日志和数据采集类应用，
+Archive只支持`Insert`和`Select`操作，每次`select`查询都需要执行全表扫描，Archive表适合日志和数据采集类应用。Archive支持行级锁和专用缓冲区，可实现高并发的插入。
 
+### Blackhole ###
+
+Blackhole引擎没有实现任何的存储机制，它会丢弃所有插入的数据，不做任何保存，但服务器会记录Blackhole表的日志，所以可以用于复制数据到备库。可在特殊的复制架构和日志审核时发挥作用。
+
+
+### CSV ###
+
+不支持索引，可以将普通的CSV文件作为MySQL的表来处理。可以在数据库运行时拷入或者拷出文件。CSV引擎可以作为数据交换的机制。
+
+### Federated ###
+
+Federated引擎是访问其他MySQL服务器的代理，会创建到远程MySQL服务器的客户端连接，并将查询传输到远程服务器执行，然后提取或者发送需要的数据。
+
+### Memory ###
+
+所有保存数据存储在内存中，不需要进行磁盘I/O,Memory表的结构在重启后还会保留，但数据会消失。Memory表支持hash索引，查找速度快。表级锁，并发写入性能较低。它不支持blob或text类型的列，并且每行的长度是固定的。
+
+主要应用：
+
+- 查找或者映射表
+- 缓存周期性聚合数据的结果
+- 保存数据分析中产生的中间数据
+
+
+### Mgr_MyISAM ###
+
+Mgr_MyISAM是MyISAM引擎的一个变种。Merge表由多个表结构相同的MyISAM表合并而成的虚拟表。可用于日志或者数据仓库类应用。下面简要介绍如何建立Merge表。
+
+**创建tb_log1**
+
+```sql
+mysql> create table tb_log1(
+    -> id int not null auto_increment,
+    -> log varchar(50),
+    -> primary key(id)
+    -> )engine=myisam;
+Query OK, 0 rows affected (0.43 sec)
+```
+
+表结构为：
+
+```sql
+mysql> desc tb_log1;
++-------+-------------+------+-----+---------+----------------+
+| Field | Type        | Null | Key | Default | Extra          |
++-------+-------------+------+-----+---------+----------------+
+| id    | int(11)     | NO   | PRI | NULL    | auto_increment |
+| log   | varchar(50) | YES  |     | NULL    |                |
++-------+-------------+------+-----+---------+----------------+
+2 rows in set (0.27 sec)
+```
+
+
+**tb_log1表插入数据**
+
+```sql
+mysql> insert into tb_log1(log) values ('tb_log1_1');
+Query OK, 1 row affected (0.24 sec)
+
+mysql> insert into tb_log1(log) values ('tb_log1_2');
+Query OK, 1 row affected (0.01 sec)
+
+mysql> insert into tb_log1(log) values ('tb_log1_3');
+Query OK, 1 row affected (0.00 sec)
+```
+
+
+**创建tb_log2**
+
+```sql
+mysql> create table tb_log2(
+    -> id int not null auto_increment,
+    -> log varchar(50),
+    -> primary key(id)
+    -> )engine=myisam;
+Query OK, 0 rows affected (0.43 sec)
+```
+表结构为：
+
+```sql
+mysql> desc tb_log2;
++-------+-------------+------+-----+---------+----------------+
+| Field | Type        | Null | Key | Default | Extra          |
++-------+-------------+------+-----+---------+----------------+
+| id    | int(11)     | NO   | PRI | NULL    | auto_increment |
+| log   | varchar(50) | YES  |     | NULL    |                |
++-------+-------------+------+-----+---------+----------------+
+2 rows in set (0.00 sec)
+```
+
+**tb_log2表插入数据**
+
+```sql
+mysql> insert into tb_log2(log) values ('tb_log2_1');
+Query OK, 1 row affected (0.24 sec)
+
+mysql> insert into tb_log2(log) values ('tb_log2_2');
+Query OK, 1 row affected (0.01 sec)
+
+mysql> insert into tb_log2(log) values ('tb_log2_3');
+Query OK, 1 row affected (0.00 sec)
+```
+
+
+**创建tb_merge**
+
+```sql
+mysql> create table tb_merge(
+    -> id int not null auto_increment,
+    -> log varchar(50),
+    -> primary key(id)
+    -> )engine=merge
+    ->  union(tb_log1,tb_log2) insert_method=last;
+Query OK, 0 rows affected (0.09 sec)
+```
+
+表结构为：
+
+```sql
+
+mysql> desc tb_merge;
++-------+-------------+------+-----+---------+----------------+
+| Field | Type        | Null | Key | Default | Extra          |
++-------+-------------+------+-----+---------+----------------+
+| id    | int(11)     | NO   | PRI | NULL    | auto_increment |
+| log   | varchar(50) | YES  |     | NULL    |                |
++-------+-------------+------+-----+---------+----------------+
+2 rows in set (0.01 sec)
+```
+
+**查询tb_merge表数据**
+
+```sql
+mysql> select * from tb_merge;
++----+-----------+
+| id | log       |
++----+-----------+
+|  1 | tb_log1_1 |
+|  2 | tb_log1_2 |
+|  3 | tb_log1_3 |
+|  1 | tb_log2_3 |
+|  2 | tb_log2_2 |
+|  3 | tb_log2_1 |
++----+-----------+
+6 rows in set (0.01 sec)
+```
+
+1. ENGINE=MERGE
+	指明使用MERGE引擎，或者指定ENGINE=MRG_MyISAM也可以。
+2. UNION=(t1, t2)
+	指明了MERGE表中连接的表，可以通过alter table的方式修改UNION的值，以实现增删MERGE表子表的功能。比如：
+ 	```sql
+	alter table tb_merge engine=merge union(tb_log1) insert_method=last;
+	```
+3. INSERT_METHOD=LAST
+	INSERT_METHOD指明插入方式，取值可以是：0 不允许插入；FIRST 插入到UNION中的第一个表； LAST 插入到UNION中的最后一个表。
+4. MERGE表及构成MERGE数据表结构的各成员数据表必须具有完全一样的结构。每一个成员数据表的数据列必须按照同样的顺序定义同样的名字和类型，索引也必须按照同样的顺序和同样的方式定义。
+
+### 如何选择存储引擎 ###
+
+选择标准可以分为：
+
+- 是否需要支持事务
+- 是否需要使用热备
+- 崩溃恢复：能否接受崩溃
+- 是否需要外键支持
+
+
+然后按照标准，选择对应的存储引擎即可。
 
 ## 参考资料 ##
 
-[16.1 Setting the Storage Engine](http://dev.mysql.com/doc/refman/5.7/en/storage-engine-setting.html)http://dev.mysql.com/doc/refman/5.7/en/storage-engine-setting.html
+- [16.1 Setting the Storage Engine](http://dev.mysql.com/doc/refman/5.7/en/storage-engine-setting.html)http://dev.mysql.com/doc/refman/5.7/en/storage-engine-setting.html
 
-
-（未完）
+- [MySQL存储引擎介绍](http://www.jellythink.com/archives/640)http://www.jellythink.com/archives/640
