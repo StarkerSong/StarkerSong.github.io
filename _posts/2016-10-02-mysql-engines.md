@@ -226,6 +226,24 @@ mysql> select * from tb_merge;
 
 然后按照标准，选择对应的存储引擎即可。
 
+### 转换表的引擎  ###
+
+1. Alter table
+
+
+
+```sql
+alter table mytable engine=InnoDB;
+```
+
+上述方法适用于任何存储引擎，但需要执行很长时间。MySQL会按行将数据从原表复制到新表中，复制期间可能会消耗所有的I/O能力,同时会在原表上加上读锁。转换表的存储引擎会失去和原引擎相关的所有特性。
+
+2. 导出与导入
+
+
+
+
+
 ## 参考资料 ##
 
 - [16.1 Setting the Storage Engine](http://dev.mysql.com/doc/refman/5.7/en/storage-engine-setting.html)http://dev.mysql.com/doc/refman/5.7/en/storage-engine-setting.html
