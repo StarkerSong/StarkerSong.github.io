@@ -31,7 +31,21 @@ tags: GL_MODELVIEW  GL_PROJECTION gluPerspective glViewport glOrtho glFrustum
 10. **光栅化：**该阶段根据几何图形、颜色和纹理数据实际创建彩色图像。然后，图像被放入到帧缓冲区之中。
 11. **帧缓冲区：**即图形显示设备的内存。图像放入到帧缓冲区意味着将会在屏幕上显示（刷新帧缓冲区时）。
 
+## 相关知识 ##
 
+**双缓冲技术:** 
+
+`glutSwapBuffers`函数是`OpenGL`中`GLUT`工具包中用于实现双缓冲技术的一个重要函数。该函数的功能是交换两个缓冲区指针。当我们进行复杂的绘图操作时，画面便可能有明显的闪烁。解决这个问题的关键在于使绘制的东西同时出现在屏幕上。
+
+双缓冲技术，是指使用两个缓冲区: 前台缓冲和后台缓冲。前台缓冲即我们看到的屏幕，后台缓冲则在内存当中，对我们来说是不可见的。每次的所有绘图操作都在后台缓冲中进行，当绘制完成时， 把绘制的最终结果复制到屏幕上，这样，我们看到所有`GDI`元素同时出现在屏幕上，从而解决了频繁刷新导致的画面闪烁问题。
+
+在`OpenGL`中实现双缓冲技术的一种简单方法:
+
+```cpp
+1.在调用glutInitDisplayMode函数时， 开启GLUT_DOUBLE，即glutInitDisplayMode(GLUT_RGB | GLUT_DOUBLE);。这里将我们惯用的GLUT_SINGLE替换为GLUT_DOUBLE，意为要使用双缓冲而非单缓冲。
+2.调用glutDisplayFunc(display)注册回调函数时， 在回调函数中所有绘制操作完成后调用glutSwapBuffers()交换两个缓冲区指针。 
+3.调用glutIdleFunc注册一个空闲时绘制操作函数， 注册的这个函数再调用display函数。
+```
 
 
 ## 函数介绍 ##
@@ -48,14 +62,14 @@ GL_TEXTURE ：  纹理矩阵堆栈
 
 ```
 
-由于对不同的矩阵有不同的操作，在设置当前的矩阵后，接下来所有调用OpenGL库函数的功能都必须确定是针对当前矩阵的。
+由于对不同的矩阵有不同的操作，在设置当前的矩阵后，接下来所有调用`OpenGL`库函数的功能都必须确定是针对当前矩阵的。
 
 ```cpp
 glMatrixMode（GL_MODELVIEW ）；//设置当前矩阵为模型视景矩阵
 gluPerspective(45.0f,(GLfloat)cx/(GLfloat)cy,0.1f,100.0f)；//对图像进行透视投影，以将三维物体显示在二维平面上
 ```
 
-上述操作是错误的，由于设置当前矩阵为视景矩阵，计算机会把该矩阵当做投影矩阵，与gluPerspective()指定的矩阵进行乘法运算，最终导致错误，没有显示图像。
+上述操作是错误的，由于设置当前矩阵为视景矩阵，计算机会把该矩阵当做投影矩阵，与`gluPerspective()`指定的矩阵进行乘法运算，最终导致错误，没有显示图像。
 
 
 ### glLoadIdentity() ###
@@ -74,6 +88,16 @@ glOrtho(GLdouble left, GLdouble right, GLdouble bottom, GLdouble top, GLdouble n
 ```
 
 near和far值同时为正或同时负，值不能相同。如果没有其他变换 ，正射投影的方向平行于Z轴，且视点朝向Z负轴。far和near都为负值时，物体在视点前面，都为正值时在视点后面。如果near和far值相同，视景体没有深度被压缩成平面就会显示不正确。
+
+### glPushMatrix()、glPopMatrix() ###
+
+相当于栈里的入栈和出栈。`glPushMatrix`其实就是把当前状态做一个副本放入堆栈之中；`glPopMatrix()`从栈中取出一个副本，恢复成副本的状态。
+
+### glFlush和glutSwapBuffers ###
+
+`glFlush`是强制马上输出命令执行的结果，而不是存储在缓冲区中，继续等待其他OpenGL命令。当执行双缓冲交换的时候，使用`glutSwapBuffers`。但是在有`glutSwapBuffers`的情况下，不需要`glFlush`就可以达到同样的效果，因为我们执行双缓冲交换的时候，就隐形的执行了一次刷新操作。
+
+
 
 ### glBegin和glEnd ###
 
@@ -113,6 +137,7 @@ GL_QUAD_STRIP     连续填充四边形串
 ![](http://i.imgur.com/JHqU9Q6.png)
 
 
+
 **点**
 
 ```cpp
@@ -123,13 +148,17 @@ void glPointSize(GLfloat size)  // 设置被渲染点的宽度
 
 ```cpp
 void glLineWidth(GLfloat width)    // 用于直线的渲染
+
+GL_LINES ：指定两个顶点，在它们之间绘制一条直线。如果为GL_LINES指定了奇数个顶点，那么最后一个顶点会被忽略。
+GL_LINE_STRIP ：线带，它允许指定一个顶点列表，并绘制一条经过所有这些顶点的连续的线。
+GL_LINE_LOOP：线环，它与线带非常类似，会在顶点列表的最后一个顶点和第一个顶点之间也绘制一条直线。
 ```
 
 **点画线**
 
 
-1. 使用glEnable(GL_LINE_STIPPLE);来启动虚线模式（使用glDisable(GL_LINE_STIPPLE)可以关闭之）。
-2. 然后，使用glLineStipple来设置虚线的样式。
+1. 使用`glEnable(GL_LINE_STIPPLE)`;来启动虚线模式（使用`glDisable(GL_LINE_STIPPLE)`可以关闭之）。
+2. 然后，使用`glLineStipple`来设置虚线的样式。
 
 ```cpp
 void glLineStipple(GLint factor, GLushort pattern);       //     void glLineStipple(1, 0xf00f); 
@@ -161,11 +190,24 @@ glFrontFace(GL_CCW);  // 设置CCW方向为“正面”，CCW即CounterClockWise
 glFrontFace(GL_CW);   // 设置CW方向为“反面”，CW即ClockWise，顺时针
 ```
 
+## 坐标系 ##
+
+1. Object or model coordinates
+2. World coordinates
+3. Eye (or Camera) coordinates
+4. Clip coordinates
+5. Normalized device coordinates
+6. Window (or screen) coordinates　
+
+世界坐标系以屏幕中心为原点(0, 0, 0)。你面对屏幕，你的右边是x正轴，上面是y正轴，屏幕指向你的为z正轴。长度单位这样来定： 窗口范围按此单位恰好是(-1,-1)到(1,1)。
+当前绘图坐标系是绘制物体时的坐标系。
+程序刚初始化时，世界坐标系和当前绘图坐标系是重合的。当用glTranslatef()，glScalef(), glRotatef()对当前绘图坐标系进行平移、伸缩、旋转变换之后， 世界坐标系和当前绘图坐标系不再重合。改变以后，再用glVertex3f()等绘图函数绘图时，都是在当前绘图坐标系进行绘图，所有的函数参数也都是相 对当前绘图坐标系来讲的。
+
 
 ## 参考资料 ##
 
 - 《OpenGL编程指南》
-
+- [点、边和图形（一）点](http://www.cnblogs.com/MenAngel/p/5633146.html)
 
 
 
